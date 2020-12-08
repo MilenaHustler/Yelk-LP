@@ -1,0 +1,605 @@
+#header{
+height:800px;
+position: absolute;
+}
+#navbar{
+display: flex;
+flex-direction: row;
+justify-content:  space-between;
+position: fixed;
+z-index: 1;
+
+}
+#img-container{
+  margin-top: 1%;
+  margin-right: 4.5%;
+
+  }
+
+a{position:relative;
+ text-decoration: none;
+ color: white;
+ margin-right: 70px;
+ font-size: 12px;
+ font-weight: 400;
+ font-family: "Open Sans";
+ font-style: normal;
+ font-variant: normal;
+ line-height: 18px;
+}
+.li-container1{
+  display:flex;
+  flex-direction:row;
+  margin-top: 9%;
+  position: relative;
+  margin-right: 9%;
+  list-style: none;
+  }
+.li-container2{
+
+  display:flex;
+  flex-direction:row;
+  margin-top: 9%;
+  list-style: none;
+
+  }
+
+.container {
+  padding: 0 15px;
+  max-width: 1440px;
+}
+
+ header{
+background-image: url(images/header-bg.png);
+margin: 0;
+padding: 0;
+height:100%;
+width: 100%;
+background-repeat: no-repeat;
+ }
+
+ .schedule {
+   color: white;
+   height:400px;
+   width:100px;
+   position: relative;
+   margin-top: 220px;
+   margin-left: 6%;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  font-size: 14px;
+  font-weight: bold;
+  font-family: "Open Sans";
+  font-style: normal;
+  line-height: 13px;
+ }
+ .restaurant{
+color: white;
+position: relative;
+bottom: 310px;
+text-align: center;
+font-family: "Open Sans";
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 14px;
+letter-spacing: 0.5em;
+text-transform: uppercase;
+}
+
+.hungry{
+color: white;
+position: relative;
+bottom: 330px;
+text-align: center;
+font-family: "Banny";
+font-size: 90px;
+line-height: 0px;
+}
+
+.yel{
+   border: none; /* Убираем границу */
+   background-color: #E8C300; /* Цвет линии */
+   color: #E8C300; /* Цвет линии для IE6-7 */
+   height: 4px; /* Толщина линии */
+   width: 60px;
+   position:relative;
+   bottom: 360px;
+   text-align: center;
+}
+
+button{
+  position: relative;
+  background-color: rgba(0,0,0, 0.5);
+  color: white;
+  font-family: "Open Sans";
+  font-size: 18px;
+  width:200px;
+  height: 60px;
+  border-radius: 10px;
+  opacity: 0.9;
+  font-style: normal;
+}
+button:hover{background-color: #E8C300;}
+#bookt {
+  position: relative;
+  left:410px;
+  bottom:310px;
+}
+#explore{
+  position: relative;
+  bottom:310px;
+  left:540px;
+}
+
+@media (min-width: 575.98px){
+  .container {
+    max-width: 540px;
+    margin: auto;
+    padding: 0;
+  }
+}
+.icons{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 100px;
+  position: relative;
+  bottom: 580px;
+}
+#facebook {margin-top: 15px;}
+#twitter {margin-top: 15px;}
+#instagram {margin-top: 15px;}
+#down-btn {
+  text-align: center;
+  position: relative;
+  bottom: 440px;}
+
+.bla{top:100px;
+  text-align: center;
+  position: relative;
+  width:50%;
+  }
+
+.description {
+  font-style: normal;
+  position:relative;
+  color: black;
+  font-family: "Banny";
+  font-size: 35px;
+  width:100%;
+  line-height: 60px;
+  text-align: center;
+  }
+.yel1{
+     border: none; /* Убираем границу */
+     background-color: #E8C300; /* Цвет линии */
+     color: #E8C300; /* Цвет линии для IE6-7 */
+     height: 4.5px; /* Толщина линии */
+     width: 50px;
+     bottom: 35px;
+     position: relative;
+     text-align: center;
+     border-radius: 2px;
+  }
+
+#form {
+  position: relative;
+  top: 820px;
+  left:100px;
+  height: auto;
+}
+
+.form-control{
+  border-radius: 5px;
+  background-color: #E5E5E5;
+  border: none;
+}
+.form-group{
+  bottom:15px;
+  position: relative;
+  left:95px;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(8, 1fr);
+  grid-auto-rows: 50px;
+  grid-template-areas:
+   " a a a b b b "
+   " c c c d d d "
+   " e e e f f f "
+   " g g g g g g ";
+}
+#name{ grid-area: a;}
+#email{ grid-area: b;}
+#phone{ grid-area: c;}
+#dropdown-n{ grid-area: d; color: grey;}
+#date{ grid-area: e;}
+#dropdown-t{ grid-area: f;color: grey;}
+.full-width {
+   grid-area: g;
+   justify-self: stretch;
+   width: auto;
+   border:none;
+   background-color: #E8C300;
+
+
+}
+
+.responsive {
+   width: 100%;
+   position: relative;
+   height: auto;
+}
+#aboutus{
+  max-width: 500px;
+  max-height: 500px;
+  top: 85px;
+  right:60px;
+}
+#aboutus1{
+  max-width: 240px;
+  max-height: 240px;
+  bottom: 285px;
+  left: 270px;
+}
+#text-s2{
+  font-style: normal;
+  position:relative;
+  color: grey;
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-weight: 400;
+  width:100%;
+  line-height: 12px;
+  text-align: center;
+  bottom:160px;
+  right:110px;
+}
+.section2{
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+
+#third{
+    background-image: url(images/specialtys-bg.png);
+    height:120%;
+    position: relative;
+    top:800px;
+    left: 0;
+}
+.section3{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+#chief{
+  position: relative;
+  top:27px;
+  width:475px;
+  height:475px;
+  left: 30px;
+
+}
+#chief1{
+  position: relative;
+  bottom:380px;
+  right:95px;
+  width:350px;
+  height:350px;
+}
+#team{
+  position: relative;
+  text-align: center;
+  top:45px;
+  height:30px;
+  color: white;
+  font-style: normal;
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-weight: 700;
+  width:100%;
+  line-height: 14px;
+}
+
+#latin{
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 800px;
+  font-size: 18px;
+  line-height: 24px;
+  position:  relative;
+  text-align: center;
+}
+#latin1{
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight:normal;
+  font-size: 14px;
+  line-height: 28px;
+  position:  relative;
+  text-align: center;
+
+}
+
+.p1{
+height:300px;
+width:600px;
+color:white;
+margin-top: 150px;
+position: relative;
+text-align: center;
+margin-right: 130px;
+bottom: 40px;
+
+}
+#latin{bottom: 35px;}
+.yel2{
+     border: none; /* Убираем границу */
+     background-color: #E8C300; /* Цвет линии */
+     color: #E8C300; /* Цвет линии для IE6-7 */
+     height: 4px; /* Толщина линии */
+     width: 50px;
+     position: relative;
+     text-align: center;
+     border-radius: 2px;
+     bottom:30px;
+  }
+
+.master{
+  font-family: Banny;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+
+}
+#fourth{
+  height:100%;
+  position: relative;
+  top:800px;
+  left: 0;
+}
+.contact{
+  top:50px;
+  font-family: Banny;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  position: relative;
+}
+.yel3{
+  border: none; /* Убираем границу */
+  background-color: #E8C300; /* Цвет линии */
+  color: #E8C300; /* Цвет линии для IE6-7 */
+  height: 4px; /* Толщина линии */
+  width: 50px;
+  position: relative;
+  text-align: center;
+  border-radius: 2px;
+  top: 25px;
+}
+.text-fourth{
+  top: 20px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  position:  relative;
+  text-align: center;
+  color: black;
+}
+.form-control1{
+  border-radius: 5px;
+  background-color: #E5E5E5;
+  height: 50px;
+  border: none;
+}
+  #form-group1{
+  position: relative;
+  top:50px;
+  width:1400px;
+  left: 225px;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(8, 1fr);
+  grid-auto-rows: 50px;
+  grid-template-areas:
+   " a a  b b  c c "
+   " d d  d d  d d "
+   " d d  d d  d d "
+   " e e  e f  f f ";
+}
+#name1{ grid-area: a;}
+#email1{ grid-area: b;}
+#select{ grid-area: c;}
+#message{ grid-area: d; height: 110px;}
+#contact-icons{grid-area: e; font-family: "Font Awesome 5 Free";font-size: 12.5px;  line-height: 28px;}
+#fas{color:orange;}
+#button-four{ grid-area: f; position:relative;}
+#fifth{
+  background-image: url(images/specialtyys-bg.png);
+  height:675px;
+  position: relative;
+  top:800px;
+  left: 0;
+}
+ #pank{
+   position: relative;
+   top:30px;
+   width:500px;
+   height:500px;
+   left: 80px;
+ }
+ #pank1{
+   position: relative;
+   bottom:400px;
+   right:47px;
+   width:350px;
+   height:350px;
+ }
+  .slider-p{
+       position: relative;
+       text-align: center;
+       color:white;
+       left:310px;
+       bottom:360px;
+           }
+
+  .chocopank{
+       font-family: Banny;
+       font-style: normal;
+       font-weight: bold;
+       font-size: 36px;
+       line-height: 48px;
+       position: relative;
+       text-align: center;
+          }
+
+ .yel4{
+    border: none; /* Убираем границу */
+    background-color: #E8C300; /* Цвет линии */
+    color: #E8C300; /* Цвет линии для IE6-7 */
+    height: 4px; /* Толщина линии */
+    width: 50px;
+    position: relative;
+    text-align: center;
+    border-radius: 2px;
+    bottom:30px;
+      }
+
+  #slider-latin {
+    height:300px;
+    width:600px;
+    color:white;
+    position: relative;
+    text-align: center;
+    margin-top: 150px;
+    left:380px;
+    bottom: 160px;
+                }
+  .sl{
+       font-family: "Open Sans";
+       font-style: normal;
+       font-weight: 800px;
+       font-size: 18px;
+       line-height: 24px;
+       position:  relative;
+       text-align: center;
+     }
+
+  .sl1{
+       font-family: "Open Sans";
+       font-style: normal;
+       font-weight:normal;
+       font-size: 14px;
+       line-height: 28px;
+       position:  relative;
+       text-align: center;
+}
+  #footer{
+       width:100%;
+       height:95px;
+       background: rgba(0, 0, 0, 0.9);
+       position: relative;
+       bottom:443px;
+
+  }
+
+/* Slideshow container */
+#slider-container {
+  max-width: 100%;
+  height:600px;
+  position: relative;
+
+}
+
+/* Hide the images by default */
+.slide {
+  width: 100%;
+ height: 100%;
+     display:none;
+}
+
+/* Next  button */
+#prev {
+ position: absolute;
+ height:50px;
+ width:50px;
+ background-color: yellow;
+ left:0;
+ cursor:pointer;
+ bottom:140px;
+ color:black;
+}
+
+/* Position the "next button" to the right */
+#next {
+  position:absolute;
+  right: 0;
+  height:50px;
+  width:50px;
+  background-color: yellow;
+  cursor:pointer;
+  bottom:140px;
+  color:black;
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.dots-wrapper {
+  display: flex;
+  justify-content: center;
+  background-color: yellow;
+}
+
+.slide.active {
+  display:block;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+@media (min-width: 767.98px){
+  .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 991.98px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1199.98px){
+  .container {
+    max-width: 1140px;
+  }
+}
